@@ -1,6 +1,6 @@
 # Health Literacy app's content creation engine by MedSci.Matrix
 
-This repository shows the usage of Intersystems platform for powering our app's multimodal content creation engine! You can view [`output.json`](output.json) and [`output.wav`](output.wav) to view sample content generated when a clinician enters that he/she wants to create a course on the Diabetes condition. Additionally, the [`main.ipynb`](main.ipynb) also shows content in local languages like Chinese which is essential for multilingual countries like Singapore.
+This repository shows the usage of Intersystems platform for powering our app's multimodal content creation engine! You can view [`output.json`](output.json), [`course_details.json`](course_details.json) and [`output.wav`](output.wav) to view sample content generated when a clinician enters that he/she wants to create a course on the Diabetes condition. Engine is designed in such a way that it can create content for multiple chronic conditions around symptoms, medication, exercise, prevention, risk factors and support services using the [`chronic_conditions.txt`](data/health/chronic_conditions.txt). Additionally, the [`main.ipynb`](main.ipynb) also shows content in local languages like Chinese which is essential for multilingual countries like Singapore. Content scripts are created for blogs, explainer videos, avatar-based videos, two-person podcast followed by a 5-question quiz for each subsection of the course.
 
 
 Please follow the instructions below for running our code:
